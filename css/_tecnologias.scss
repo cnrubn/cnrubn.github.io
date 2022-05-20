@@ -1,0 +1,45 @@
+.conocimiento-titulo {
+    margin-bottom: 100px;
+    padding-left: 0;
+
+    h2 {
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+}
+
+
+.conocimiento-contenido {
+    padding-left: 0;
+    margin-bottom: 100px;
+
+    margin-right: 10px;
+
+    width: 200px;
+    height: 200px; 
+    border: 1px solid $gris-enlaces;
+    border-radius: 4px;
+    text-align: center;
+
+    .cuadros {
+        
+        i {
+            line-height: 153px;
+            font-size: 100px;
+        }
+
+
+    }
+    
+    &:hover {
+        border: 1px solid $rosa;
+        background: $rosa;
+        color: #fff;
+    }
+    
+    &.sin-icon {
+        h5 {
+            font-size: 1em;
+        }
+    }
+} 

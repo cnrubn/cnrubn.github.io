@@ -1,0 +1,36 @@
+$rosa: #FF3366;
+$gris-enlaces: rgb(138, 137, 137);
+
+$font-family: "Open Sans", sans-serif;
+$font-size: 20px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: $font-size;
+    font-family: $font-family;
+}
+
+.container {
+    &.general {
+        max-width: 100%;
+    }
+}
+
+.rosa {
+    color: $rosa;
+}
+
+
+@import "sidebar",
+        "principal",
+        "portfolio",
+        "media",
+        "soy",
+        "contacto",
+        "tecnologias"
+        
+

@@ -1,0 +1,61 @@
+.sidebar {
+    height: 100vh;
+    box-sizing: border-box;
+    padding-left: 100px;
+    position: fixed;
+
+}
+
+.logo-web {
+    overflow: hidden;
+    margin-top: 100px;
+
+    width: 4em;
+    height: 4em;
+
+    border-radius: 15px;
+
+}
+
+.menu {
+    margin-top: 30%;
+    
+    ul {
+        padding-left: 0;
+        list-style: none;
+        li {
+            margin-bottom: 30px;
+            a {
+                color: $gris-enlaces;
+
+                text-decoration: none;
+                font-size: 1.2em;
+
+                &.activo {
+                    color: $rosa;
+                }
+
+                &:hover {
+                    color: #000;
+                }
+
+            }
+
+        }
+    }    
+}
+
+.foto-perfil {
+    margin-bottom: 50px;
+
+    img {
+        width: 5em;
+        border-radius: 100%;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 1.1em;
+    }
+}

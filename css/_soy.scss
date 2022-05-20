@@ -1,0 +1,33 @@
+.col-8,
+.col-6 {
+    margin-right: 11%;
+    padding-left: 0;
+
+}
+
+.titulo {
+    margin-top: 115px;
+    margin-bottom: 50px;
+
+    h2 {
+        font-weight: 700;
+        font-size: 3em;
+    }
+}
+
+.img-encabezado {
+    background: rgb(117, 117, 117);
+    padding: 0;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        margin-top: -180px;
+    }
+}
+
+.parrafo {
+    margin-top: 50px;
+    font-size: 1.6em;
+    line-height: 1.6em;
+}

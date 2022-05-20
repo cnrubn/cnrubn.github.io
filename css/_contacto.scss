@@ -1,0 +1,77 @@
+.p-contacto {
+    margin-top: 35px;
+    padding-left: 50px;
+    
+    p {
+        margin-bottom: 70px;
+    }
+}
+
+
+.p-contacto {
+    .redes-contenido {
+        margin-right: 200px;
+        margin-bottom: 57px;
+
+        a {
+            text-decoration: none;
+            color: #000;
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            display: inline-block;
+            border-radius: 4px;
+            text-align: center;
+
+
+            .cuadros {
+
+                i {
+                    line-height: 153px;
+                    font-size: 100px;
+                }
+
+                h5 {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+
+        &.linkedin {
+            :hover {
+
+                background: #0A66C2;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+
+
+            }
+        }
+
+        &.github {
+            :hover {
+
+                background: #24292F;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+
+
+            }
+        }
+
+        &.instagram {
+            :hover {
+
+                background: #c13584;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+
+
+            }
+        }
+
+    }
+}

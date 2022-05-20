@@ -1,0 +1,92 @@
+@media screen and (max-width: 1400px) {
+    .sidebar {
+        height: 100vh;
+        box-sizing: border-box;
+        padding-left: 20px;
+    
+        position: fixed;
+    
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .sidebar {
+        height: auto;
+        box-sizing: border-box;
+        padding: 0 auto;
+    
+        position: relative;
+
+        background: #eee;
+
+
+    
+    }
+
+    .logo-web {
+        display: none;
+    
+    }
+
+    .menu {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        ul {
+            li {
+                text-align: center;
+                margin-bottom: 10px;
+
+                padding: 30px auto;
+                // background: red;
+            }
+        }
+    }
+
+    .foto-perfil {
+        img {
+            width: 5em;
+            border-radius: 100%;
+            margin-bottom: 10px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
+
+        }
+    
+        p {
+            font-weight: 300;
+            font-size: 1.1em;
+            text-align: center;
+        }
+    }
+
+    .titulo {
+        h2 {
+            font-size: 2.2em;
+        }
+    }
+
+
+    // SECCIÓN SOY
+    .img-encabezado {
+        display: none;
+    }
+
+    // SECCIÓN CONTACTO
+    .img-contacto {
+        display: none;
+    }
+
+    // SECCIÓN PORTFOLIO
+    .tarjeta-cuerpo {
+        max-height: none;
+    }
+
+    
+    
+}

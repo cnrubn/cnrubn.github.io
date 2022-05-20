@@ -1,0 +1,149 @@
+.principal {
+    min-height: 100vh;
+    float: right;
+}
+
+.cards {
+    padding: 120px 5% 10px 5%;
+
+    .card {
+        overflow: hidden;
+        width: 305px;
+        height: 240px;
+        border-radius: 0;
+        margin: 25px;
+
+        border: 1px solid #eee;
+        border-radius: 2px;
+        box-shadow: 0 0 0.5px rgba(0, 0, 0, 0.4);
+
+        &:hover {
+            .texto-card {             
+                a {
+                    h3 {
+                        color: rgb(138, 137, 137);
+                    }
+                }
+                
+            }
+        }
+
+        a {
+            font-size: 100px;
+            line-height: 240px;
+            text-align: center;
+        }
+        
+        .thumb {
+            overflow: hidden;
+            text-align: center;
+
+            a {
+                display: inline-block;
+                line-height: 185px;
+                width: 100%;
+                padding-top: -50px;
+            }
+
+            img {
+                width: 113%;
+                vertical-align: top;
+                height: auto;
+
+                &.card-html {
+                    margin-top: -35px;
+                }
+
+                &.card-linkedin {
+                    margin-left: -22px;
+                }
+            }
+        }
+
+        .texto-card {
+            background: #fff;
+
+            a {
+                text-decoration: none;
+                text-align: left;
+
+                h3 {
+                    color: #aaa;
+                    margin: 0;
+                    font-weight: 300;
+                    padding: 6px 16px;
+                }
+            }
+        }
+
+        &.fondo-negro {
+            background: #000;
+
+            .icon {
+                color: #fff;
+            }
+
+            .texto-card {
+                background: #000;
+                h3 {
+
+                    color: #fff;
+                }
+            }
+        }
+
+        &.fondo-rosa {
+            background: $rosa;
+
+            .icon {
+                color: #fff;
+            }
+
+            
+            .texto-card {
+                background: $rosa;
+                h3 {
+
+                    color: #fff;
+                }
+            }
+
+            &:hover {
+
+                color: $rosa;
+                
+                .icon {
+                    color: #000;;
+                }
+
+                .texto-card {             
+                    a {
+                        h3 {
+                            color: #000;
+                        }
+                    }
+                    
+                }
+            }
+        }
+
+        &:hover {
+
+            border: 2px solid $rosa;
+
+            .icon {
+                color: $rosa;;
+            }
+
+            .texto-card {             
+                a {
+                    h3 {
+                        color: $rosa;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
