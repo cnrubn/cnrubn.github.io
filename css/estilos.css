@@ -212,17 +212,23 @@ body {
   margin-bottom: 60px;
 }
 
+.tarjeta-cuerpocardH {
+  max-height: 425px;
+}
+
 .tarjeta-cuerpo .img-muestra {
   overflow: hidden;
   width: 100%;
   line-height: 420px;
   text-align: center;
-  padding: 2px 2px;
+  margin: 10px 5px;
+  border-radius: 4px;
+  width: 2000px;
+  max-width: 600px;
 }
 
 .tarjeta-cuerpo .img-muestra img {
   width: 100%;
-  border-radius: 4px;
 }
 
 .tarjeta-cuerpo .tarjeta-contenido {
